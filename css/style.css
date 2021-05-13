@@ -1,0 +1,206 @@
+*{
+	margin-left: 2px;
+	box-sizing: border-box;/*defini la facon donc la largeur  et la hauteur d'un element est calculer*/
+
+}
+
+body{
+	background-color: #D3D3D3;
+	font-family: sans-serif;
+}
+
+img{
+	border-radius: 2px;
+	
+}
+
+.menu{
+	background-color: #4169E1;
+	height: 60px;
+	width: 90%;
+	margin-top: 0px;
+	border-radius: 2px;
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: auto 5px;
+
+}
+
+.menu ul li{
+	display: inline-block;
+	margin: 15px;
+}
+
+.menu ul li a{
+	color: white;
+	margin-top: 2px;
+	text-decoration: none;
+}
+nav a.active, nav a:hover{
+	color:#808080;
+	transition: .5s;
+	background-color: #808080;
+}
+
+.image img{
+	margin-left: 270px;
+	border-radius: 2px;
+	
+}
+
+.position{
+	display: flex;
+	margin-top: 3px;
+}
+
+.left{
+	margin-left: 5px;
+}
+
+.relative .span{
+	font-family: sans-serif;
+	font-size:30px;
+	text-decoration:underline;
+	margin-left: 5px;
+	padding-top: 10px;
+}
+
+.relative .left{
+	margin-top: 25px;
+}
+
+.ko{
+	margin-left: -300px;
+}
+
+button{
+	margin-left:93%;
+	background-color: #4169E1;
+	color: #fff;
+	cursor: pointer;
+}
+
+.color{
+	background-color: #20477C;
+	width: 87%;
+	height: 50px;
+	border-radius: 1px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.color p{
+	margin-left: 75%;
+	color: #fff;
+	padding:5px;
+}
+
+.activ{
+	background-color:#4169E1;
+	width: 87%;
+	height: 200px;
+	border-radius: 1px;
+	margin-bottom: 20px;	
+}
+
+.activ ul li a{
+	margin-left: 2px;
+}
+
+.suivant p{
+	margin-left: 270px;
+}
+
+.align{
+	margin-left: 600px;
+}
+
+table{
+	border-collapse: collapse;
+	margin-left: 270px;
+}
+
+th, td{
+	border: 1px solid black;
+	padding: 3px;
+}
+
+.tete{
+	vertical-align: left;
+	color: #fff;
+	background-color:#4169E1;;
+}
+
+.waouh{
+	margin-left: 270px;
+	margin-top: 15px;
+}
+
+.kos{
+	margin-left: -190px; 
+}
+
+.ke{
+	margin-top: 10px;
+}
+
+ul li{
+	margin-top: 10px;
+	color: #fff;
+}
+
+ul{
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.form p{
+	text-align: center;
+	text-decoration: underline;
+	margin:20px 0px;
+	
+}
+
+.formulaire{
+	margin-top: 25px;
+	margin-left: 430px;
+	margin-right: 400px;
+	background-color: #4169E1;
+	margin-bottom: 5px;
+	color: #fff;
+}
+
+label[for="ameliorer"]{
+	margin-left: 10px;
+	color: #fff;
+}
+
+form p{
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+	color:#fff;
+}
+
+form input{
+	margin-left: 10px;
+}
+
+form textarea{
+	width: 95%;
+	margin: 10px 10px;
+	height: 50%;
+}
+
+input[type="submit"]{
+	width: 90%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+textarea[name="ameliorer"]{
+	height:100px;
+}
+
